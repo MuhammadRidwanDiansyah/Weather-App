@@ -28,7 +28,7 @@
 
 <script>
 
-import Weather from './components/Weather.vue';
+// import Weather from './components/Weather.vue';
 
 export default (await import('vue')).defineComponent({
   name: 'App',
@@ -85,6 +85,22 @@ span {
 .li_active:hover {
   transform: scale(1.2);
   transition: transform 0.1s ease;
+}
+
+.li_active_temp {
+  display: inline-block;
+  background-color: #222831;
+  color: #ffffff;
+  transition: background-color 0.5s;
+  border-radius: 10px;
+}
+
+.li_active_temp:hover {
+  transform: scale(1.2);
+  transition: transform 0.1s ease;
+  background: #fff;
+  border-radius: 10px;
+  color: #191a1f;
 }
 
 </style>

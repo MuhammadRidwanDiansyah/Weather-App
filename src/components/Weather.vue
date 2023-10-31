@@ -13,31 +13,31 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="card card-2 w-100">
-      <table class="m-4">
-        <tbody>
-          <tr>
-            <th>Sea Level</th>
-            <th>100</th>
-          </tr>
-          <tr>
-            <th>Sea Level</th>
-            <th>100</th>
-          </tr>
-          <tr>
-            <th>Sea Level</th>
-            <th>100</th>
-          </tr>
-        </tbody>
-      </table>
-
-      <DaysWeather></DaysWeather>
-
-      <div id="div_Form" class="d-flex m-3 justify-content-center">
-        <form action="">
-          <input type="button" value="Change Location" class="btn change-btn btn-primary">
-        </form>
+      <div class="card card-2 w-100">
+        <table class="m-4">
+          <tbody>
+            <tr>
+              <th>Sea Level</th>
+              <th>100</th>
+            </tr>
+            <tr>
+              <th>Sea Level</th>
+              <th>100</th>
+            </tr>
+            <tr>
+              <th>Sea Level</th>
+              <th>100</th>
+            </tr>
+          </tbody>
+        </table>
+  
+        <DaysWeather></DaysWeather>
+  
+        <div id="div_Form" class="d-flex m-3 justify-content-center">
+          <form action="">
+            <input type="button" value="Change Location" class="btn change-btn btn-primary">
+          </form>
+        </div>
       </div>
     </div>
   </div>
